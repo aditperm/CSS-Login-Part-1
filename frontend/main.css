@@ -24,7 +24,7 @@ body {
   background-size: cover;
   font-family: "Euclid Circular A";
   color: #000;
-  animation: rotate 6s infinite alternate linear;
+  animation: rotate 4s infinite alternate linear;
 }
 
 @media (width >= 500px) {
@@ -79,6 +79,7 @@ body {
 
 .login-form > input {
   border: 2px solid #ebebeb;
+  border-radius: 20px;
   font-family: inherit;
   font-size: 16px;
   padding: 0 16px;
@@ -89,9 +90,25 @@ body {
   width: 100%;
   height: 56px;
   padding: 0 16px;
-  border-radius: 0.5rem;
+  border-radius: 20rem;
   background: #216ce7;
   color: #f9f9f9;
+  border: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: all 0.375s;
+}
+.login-form > button:hover {
+  cursor: pointer;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border-radius: 20rem;
+  background: #f9ed69;
+  color: #000;
   border: 0;
   font-family: inherit;
   font-size: 1rem;
